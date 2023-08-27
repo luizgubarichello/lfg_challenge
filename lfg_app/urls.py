@@ -1,7 +1,9 @@
 from django.urls import path
-from . import views
+from .views import ProposalFieldListCreateView, ProposalListCreateView, ProposalRetrieveUpdateView, home
 
 urlpatterns = [
-    path('', views.home, name='main_home'),
-    path('proposals/', views.ProposalCreateView.as_view(), name='proposal-create'),
+    path('fields/', ProposalFieldListCreateView.as_view(), name='proposal-field-list-create'),
+    path('', home, name='main_home'),
+    path('proposals/', ProposalListCreateView.as_view(), name='proposal-list-create'),
+    path('proposals/<int:pk>/', ProposalRetrieveUpdateView.as_view(), name='proposal-retrieve-update'),
 ]

@@ -29,7 +29,7 @@ Para instalar e usar este projeto, siga os seguintes passos:
 
 1. Clone este repositório
 
-2. Utilize o comando `docker-compose up` e aguarde o término do processo
+2. Utilize o comando `docker-compose up` e aguarde o término do processo (termina quando iniciar o servidor web)
 
 3. Vá para o passo 8
 

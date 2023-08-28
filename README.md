@@ -27,11 +27,13 @@ Para instalar e usar este projeto, siga os seguintes passos:
 
 ### Via Docker
 
-1. Clone este repositório
+1. Execute o comando `git config --global core.autocrlf false`
 
-2. Utilize o comando `docker-compose up` e aguarde o término do processo (termina quando iniciar o servidor web)
+2. Clone este repositório
 
-3. Vá para o passo 8
+3. Utilize o comando `docker-compose up` e aguarde o término do processo (termina quando iniciar o servidor web)
+
+4. Vá para o passo 8
 
 ### Local
 
